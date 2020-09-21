@@ -1,0 +1,68 @@
+{
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+          "before": ["<leader>", "1"],
+          "after": ["1", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "2"],
+          "after": ["2", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "3"],
+          "after": ["3", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "4"],
+          "after": ["4", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "5"],
+          "after": ["5", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "6"],
+          "after": ["6", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "7"],
+          "after": ["7", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "8"],
+          "after": ["8", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "9"],
+          "after": ["9", "g", "t"]
+      },
+      {
+          "before": ["<leader>", "q"],
+          "commands": [":tabnew"]
+      },
+      {
+          "before": ["<C-c>"],
+          "commands": [":vsp"]
+      }
+    ],
+    "vim.leader": "\\",
+    "vim.handleKeys": {
+    }
+}
