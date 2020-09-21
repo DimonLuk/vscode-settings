@@ -1,0 +1,10 @@
+{
+	"Import from": {
+		"scope": "python",
+		"prefix": "frim",
+		"body": [
+			"from $1 import $2"
+		],
+		"description": "from package import something"
+	}
+}
