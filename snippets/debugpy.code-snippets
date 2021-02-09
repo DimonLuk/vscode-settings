@@ -1,0 +1,12 @@
+{
+	"Debugpy": {
+		"scope": "python",
+		"prefix": "dbp",
+		"body": [
+			"import debugpy",
+			"debugpy.listen((\"0.0.0.0\", 5678))",
+			"debugpy.wait_for_client()"
+		],
+		"description": "Set up vscode debugger"
+	}
+}
